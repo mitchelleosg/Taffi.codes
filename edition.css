@@ -1,0 +1,586 @@
+body{
+  animation: bodyRotate 2s linear 1;
+  background-image: url(body\ baskground.jpg);
+  font-family: "Playfair"serif ;
+  background-color: black;
+      animation: slideUpRotate 3s ease-out forwards;
+}
+  @keyframes slideUpRotate360 {
+  0% {
+    bottom: -200px;
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    bottom: 50%;
+    transform: translateX(-50%) rotate(360deg);
+    opacity: 1;
+  }
+}
+  .body_fit{
+    animation: spinIn 1s ease forwards;
+      opacity: 0;
+      transform: rotate(360deg);
+}
+ @keyframes spinIn {
+      0% {
+        transform: rotate(360deg) scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+      }
+    }
+.spin-box{
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('body baskground.jpg');
+    background-image: linear-gradient("to bottom;");
+}
+ .navbar {
+  z-index: 1;
+  background-image: url("./body\ baskground.jpg");
+  border-bottom: 1.5px solid #939290;
+}
+.navbar-brand {
+  font-size: 12px !important;
+  font-family: "Cinzel", serif;
+}
+.navbar-logo {
+  font-family: "Cinzel", serif;
+  font-size: 15px !important;
+  font-weight: 700;
+  letter-spacing: -1;
+  animation-duration: 8s;
+  animation-name: logo;
+  transition: 3s transform ease;
+}
+.material-symbols-outlined {
+  font-weight: 200 !important;
+  font-size: 3rem !important;
+  line-height: 0.1 !important;
+  color: black !important;
+  text-align: center !important;
+}
+.hamburger1 {
+  padding-top: 60%;
+}
+.navbar-toggler,
+.btn-close {
+  transition: transform 3s ease;
+}
+.navbar-toggler:hover .hamburger1:first-child,
+.btn-close:hover {
+  transform: translateX(3px);
+}
+.navbar-toggler:hover .hamburger2:last-child {
+  transform: translateX(-3px);
+}
+.navbar-toggler:active .hamburger1:first-child {
+  transform: rotate(45deg) translate(-1px);
+}
+.navbar-toggler:active .hamburger2:last-child {
+  transform: rotate(-45deg) translate(14px);
+}
+.offcanvas-body {
+  color: #777676;
+  background-color: #000000;
+}
+.navitem,
+.nav-link {
+  color: white !important;
+}
+.btn-outline-success {
+  border: 1px solid #2fffd2;
+  color: #2fffd2;
+}
+.offcanvas-header {
+  background-color: #1c1c19;
+  color: #cdc6be;
+  gap: 35%;
+}
+.offcanvas.offcanvas-top {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  background-color: #1d1d1b;
+}
+.offcanvas.offcanvas-top {
+  overflow: hidden !important;
+}
+.offcanvas-body {
+  overflow: hidden !important;
+  height: calc(100vh - 56px);
+}
+body.offcanvas-open {
+  overflow: hidden !important;
+}
+     .hover-card {
+      transition: transform 0.5s ease;
+      overflow: hidden;
+    }
+    .hover-card img {
+      transition: transform 0.5s ease;
+    }
+    .hover-card:hover img {
+      transform: scale(1.1) translateY(-5px);
+    }
+    .hover-card:hover {
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+.text-center{
+    padding-top: 10% !important;
+}
+.hover-card {
+  height: 249px; 
+  overflow: hidden; }
+.hero{
+  background-image: url(body\ baskground.jpg);
+}
+footer{
+  color: white;
+  justify-content: center;
+}
+ h1,h2, a, p{
+  font-family: 'Cinzel 'serif;
+ }
+ .portrait {
+  width: 60%;
+  max-width: 280px;
+  margin-top: 1rem;
+  border: 4px solid #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transition: transform 0.4s ease;
+}
+.portrait:hover {
+  transform: scale(1.03);
+}
+.info p {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+.info p:hover {
+  color: #444;
+}
+.section-title h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  margin: 1rem 0;
+  transition: letter-spacing 0.3s ease;
+}
+.section-title h2:hover {
+  letter-spacing: 2px;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards;
+}
+.fade-in:nth-child(2) { animation-delay: 0.5s; }
+.fade-in:nth-child(3) { animation-delay: 1s; }
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display&display=swap');
+.profile-pic {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+    .miranda-banner {
+      background-color: #1b1b1b;
+      color: #d8cfc5;
+      text-align: center;
+      padding: 30px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 90px;
+      letter-spacing: 10px;
+      border-top: 5px solid #d8cfc5;
+      border-bottom: 5px solid #d8cfc5;
+    }
+   @media (max-width: 768px) {
+      .miranda-banner {
+       font-size: 36px;
+        letter-spacing: 5px;
+      }
+    }
+     .dropcap {
+      float: left;
+      font-size: 3.5rem;
+      line-height: 1;
+      padding-right: 10px;
+      font-weight: bold;
+      font-family: 'Cinzel', serif;
+      color: #000;
+    }
+    .text-block {
+      font-size: 1.2rem;
+      color: black;
+    }
+    .left-image {
+      width: 100%;
+      height: 50%;
+      object-fit: contain;
+      border: 1px solid #ccc;
+    }
+    .right-title {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      font-weight: bold;
+      line-height: 1.3;
+      text-transform: uppercase;
+      color: #111;
+    }
+    .right-section {
+      border-left: 1px solid #999;
+      padding-left: 30px;
+    }
+    @media (max-width: 768px) {
+      .right-section {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 20px;
+      }
+    }
+    .title {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 1px;
+      color: #111;
+    }
+    .title span {
+      display: block;
+      font-size: 5rem;
+      line-height: 1;
+    }
+ .main-title {
+      font-family: 'Cinzel', serif;
+      font-size: 6rem;
+      text-transform: uppercase;
+      background-color: #121212;
+      color: #e8dfd6;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .stamp {
+      background-color: #f3ece3;
+      padding: 20px;
+      border: 10px solid #d8d0c7;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .stamp .sun {
+      font-size: 2rem;
+      color: orange;
+    }
+    .section-title {
+      font-family: 'Cinzel', serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .feature-img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #aaa;
+    }
+    .side-text {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .border-col {
+      border-left: 1px solid #333;
+    }
+    @media (max-width: 768px) {
+      .main-title {
+        font-size: 3rem;
+      }
+      .side-text {
+        font-size: 1.5rem;
+      }
+      .border-col {
+        border-left: none;
+        margin-top: 30px;
+      }
+    }
+    .award-block {
+      text-align: center;
+      padding: 20px;
+    }
+    .award-title {
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+    .award-label {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .award-number {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .testimonial-card {
+      border: 2px dashed #222;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: transparent;
+      height: 100%;
+    }
+    .testimonial-text {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .person-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .person-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .person-name {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .person-role {
+      font-size: 0.9rem;
+    }
+  .testimonial-card {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.testimonial-card:hover {
+  z-index: 10;
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.row.g-4 > div {
+  margin-left: -20px;
+}
+.custom-footer {
+  background-image: url('body baskground.jpg');
+  color: #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.footer-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.email-btn {
+  background: #000;
+  color: #fff;
+  padding: 0.2rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+.email-btn:hover {
+  background: #333;
+}
+.small-footer {
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+.card-container {
+      background-image: url(./body\ baskground.jpg);
+      display: flex;
+      gap: 20px;
+      justify-content: start;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .card {
+      background-image: url(./body\ baskground.jpg);
+      width: 300px;
+      perspective: 1000px;
+      cursor: pointer;
+    }
+    .card-inner {
+      background-image: url(./body\ baskground.jpg);
+      position: relative;
+      width: 100%;
+      height: 400px;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+    .card:hover .card-inner,
+    .card.flip .card-inner {
+      transform: rotateY(180deg);
+    }
+    .card-front, .card-back {
+      background-image: url(./body\ baskground.jpg);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      padding: 20px;
+      
+    }
+    .card-back {
+      background-image: url(./body\ baskground.jpg);
+      transform: rotateY(180deg);
+      /* background: #f8f9fa; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #555;}
+.menu-text {
+      font-size: 4rem;
+      font-weight: bold;
+      margin: 20px 0;
+      position: relative;
+    }
+    .strikethrough {
+      position: relative;
+      display: inline-block;
+    }
+    .strikethrough::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -10px;
+      right: -10px;
+      height: 5px;
+      background-color: #ff5e3a;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+    .offcanvas.offcanvas-top {
+      font-family: 'Times New Roman', serif;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: white;
+    }
+    .footer-links {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: white;
+    }
+   .footer-links span {
+      margin: 0 10px;
+    }
+@media screen and (max-width: 768px) {
+  .animated-box {
+    width: 90%;
+    padding: 15px;
+    font-size: 14px;
+  }
+      .col-md-6 {
+        font-size: 18px;
+    text-align: center;
+    line-height:-1.6px;
+    padding: 0 20px;
+      }
+      @media (max-width: 768px) {
+  .col-md-6 {
+    display: none;
+  }
+}
+}
+.testimonials1 {
+  display: flex;
+  /* gap: 1rem; */
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.card1 {
+  border: 2px dashed #333;
+  padding: 1.5rem;
+  background: #f5f0e9;
+  width: 300px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+}
+
+.quote1 {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.author1 {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.author1 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+@keyframes slideInOut {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.card1 {
+  animation: slideInOut 8s infinite;
+}
+.card1{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .card1 {
+    flex-direction: column;
+  }
+  .card1{
+    display: block;
+  }
+}
+
+
