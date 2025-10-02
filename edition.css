@@ -45,7 +45,7 @@ body{
   z-index: 1;
   background-image: url("./body\ baskground.jpg");
   border-bottom: 1.5px solid #939290;
-}
+ }
 .navbar-brand {
   font-size: 12px !important;
   font-family: "Cinzel", serif;
